@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite
+}
+.header{
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 16px 60px;
+    background-color: #6F4E37;
+    flex-wrap: wrap;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle{
+    display: flex;
+    color: white;
+    margin-left: 130px;
+    gap: 24px;
+}
+
+img{
+    height: 80px;
+    width: 250px;
+}
