@@ -1,9 +1,18 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Pacifico', cursive;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #F8F4E1;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
 }
 .header{
     height: 20px;
@@ -12,6 +21,22 @@ body{
     align-items: center;
     padding: 16px 60px;
     background-color: #6F4E37;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.subImg{
+    height: 130px;
+    width: 470px;
 }
 
 .links{
@@ -23,26 +48,29 @@ body{
 
 .content {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 
 .phrase{
     height: 150px;
     background-color: #FED8B1;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .subtitle{
-    height: 190px;
+    height: 130px;
     display: flex;
     color: white;
     background-color: #6F4E37;
     padding: 16px 16px;
-    margin-bottom: auto;
+    margin-bottom: 20px;
     justify-content: space-around;
     gap: 24px;
 }
@@ -50,8 +78,8 @@ body{
 .knowmore {
     height: 100px;
     width: 600px;
-    background-color: #F8F4E1;
-    margin-bottom: 20px;
+    background-color: #74512D;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,21 +88,30 @@ body{
 }
 
 .footer{
-    height: 60px;
+    height: 80px;
     display: flex;
     background-color: #ECB176;
-    display: flex;
     align-items: flex-start;
     justify-content: center;
 }
 
 .images{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 110px;
+    flex-wrap: nowrap;
+    gap: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 img{
-    height: 180px;
-    width: 300px;
+    height: 100px;
+    width: 220px;
 }
 
+.text{
+    display: flex;
+    text-align: center;
+}
