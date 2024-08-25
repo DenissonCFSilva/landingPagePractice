@@ -11,7 +11,7 @@ body{
 
 a{
     text-decoration: none;
-    color: antiquewhite;
+    color: #F8F4E1;
 }
 .header{
     height: 20px;
@@ -56,22 +56,52 @@ a{
 
 .phrase{
     height: 150px;
+    width: 100%;
     background-color: #FED8B1;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    padding: 30px;
 }
 
-.subtitle{
-    height: 130px;
+.subtitle {
     display: flex;
-    color: white;
-    background-color: #6F4E37;
-    padding: 16px 16px;
-    margin-bottom: 20px;
+    align-items: center;
     justify-content: space-around;
     gap: 24px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background-color: #6F4E37;
+    color: #F8F4E1;
+    flex-wrap: wrap;
+}
+
+.sub h3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.sign{
+    font-family: 'pacifico', cursive;
+    font-weight: bold;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #F8F4E1;
+    color: #6F4E37;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 200px;
+    font-weight: bold;
 }
 
 .knowmore {
@@ -80,17 +110,18 @@ a{
     background-color: #74512D;
     margin-bottom: 40px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .footer{
-    height: 80px;
+    height: 40px;
     display: flex;
     background-color: #ECB176;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -105,6 +136,10 @@ a{
     margin-right: 40px;
 }
 
+.imag img{
+    border: 5px solid #6F4E37;
+}
+
 img{
     height: 100px;
     width: 220px;
@@ -112,5 +147,29 @@ img{
 
 .text{
     display: flex;
-    text-align: center;
+    text-align: end;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: end;
+}
+
+.moreAboutCoffee {
+    color: #F8F4E1;
+}
+
+.knowButton {
+    background-color: #F8F4E1;
+    color: #74512D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    font-size: 16px;
+    font-weight: bold;
 }
